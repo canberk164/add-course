@@ -10,18 +10,18 @@ function getRandomCourse() {
 function App() {
   const [courses, setCourses] = useState([]);
 
+  const handleClick = () => {
+    setCourses([...courses, getRandomCourse()]); //add new course while keeping last courses
+  };
+
   const courseList = courses.map((course, index) => {
     return <Course key={index} courseName={course} />;
   });
 
-  const handleClick = () => {
-    setCourses([...courses, getRandomCourse()]); //keep last courses
-  };
-
   return (
     <div className="App">
-      <button onClick={handleClick}>Add Course</button>
-      <div>{courseList}</div>
+      <button className="appButton" onClick={handleClick}>Add Course</button>
+      <div className="courseList">{courseList}</div>
     </div>
   );
 }
