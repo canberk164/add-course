@@ -4,23 +4,24 @@ This simple React application allows the user to generate a list of courses rand
 
 # How to Use?
 
-Clone the project to your computer or download it as a ZIP file.
-Navigate to the project directory in your terminal or command prompt.
-Run the npm install command to install the necessary dependencies.
-Start the project with the npm start command.
-Open http://localhost:3000 in your browser to view the application.
+1. Clone the project to your computer or download it as a ZIP file.
+2. Navigate to the project directory in your terminal or command prompt.
+3. Run the npm install command to install the necessary dependencies.
+4. Start the project with the npm start command.
+5. Open http://localhost:3000 in your browser to view the application.
 
 # Functionality
 
-Clicking the "Add Course" button adds a randomly selected course.
-The added courses are listed below.
-Users can add as many courses as they want and observe the courses they added.
+* Clicking the "Add Course" button adds a randomly selected course.
+* The added courses are listed below.
+* Users can add as many courses as they want and observe the courses they added.
+
 This application is a basic example of React state management and event handling. A simple getRandomCourse function is used to add courses randomly.
 
 # Technologies Used
 
-React
-CSS (for styling)
+* React
+* CSS (for styling)
 
 # Contributing
 
